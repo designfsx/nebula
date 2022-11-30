@@ -1,0 +1,67 @@
+.step-progress__wrapper {
+    font-weight: 700;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 15px;
+}
+
+.stepprogress--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-item__counter {
+    border: 3px solid #DADADA;
+    background-color: #DADADA;
+    color: #999;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.counter--none {
+    border-radius: 0;
+}
+.counter--small {
+    border-radius: 2px;
+}
+.counter--medium {
+    border-radius: 4px;
+}
+.counter--large {
+    border-radius: 8px;
+}
+.counter--xLarge {
+    border-radius: 12px;
+}
+.counter--rounded {
+    border-radius: 100px;
+}
+
+.step-item__title {
+    color: #999;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.stepprogress--item.active .step-item__counter {
+    color: #000;
+    border: 3px solid #000;
+    background-color: transparent;
+}
+.stepprogress--item.active .step-item__title {
+    color: #000;
+}
+
+.stepprogress--item.completed .step-item__counter {
+    color: #FFF;
+    border: 3px solid #000;
+    background-color: #000;
+}
+.stepprogress--item.completed .step-item__title {
+    color: #999;
+}

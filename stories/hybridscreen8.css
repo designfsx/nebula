@@ -1,0 +1,56 @@
+.loading-wrapper h2 {
+    margin-bottom: 15px;
+}
+
+.loading-wrapper h2:last-of-type {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0 0 16px;
+    text-align: center;
+    color: #666;
+    width: 100%;
+}
+
+h2 svg {
+    fill: #666;
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.complete {
+    color: #8AC34B;
+    fill: #8AC34B;
+}
+
+h2 .loading  {
+    color: #666;
+}
+
+h2 .hide  {
+    display: none;
+}
+
+.loading svg {
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+
+.button--wrapper {
+    display: flex;
+    gap: 24px;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}

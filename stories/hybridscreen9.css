@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.close-button {
+  background-color: #FAFAFA;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  right: 20px;
+  border-right: 4px;
+  cursor: pointer;
+}
+
+.close-button svg {
+  fill: #999;
+  width: 10px;
+}
+
+iframe {
+  width: 100%;
+  min-height: 340px;
+  border: 0;
+  margin: 1rem auto;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}

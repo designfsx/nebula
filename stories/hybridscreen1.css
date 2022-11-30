@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main h1 {
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+}

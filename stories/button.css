@@ -1,0 +1,34 @@
+.button {
+  font-weight: 700;
+  background: none;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.button--primary {
+  color: white;
+  background-color: #e05;
+}
+.button--secondary {
+  color: #333;
+  background-color: #FFF;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+}
+.button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.button--large {
+  font-size: clamp(18px, 4vw, 25px);
+  padding: 12px 35px;
+}
+.button[disabled] {
+  background-color: #E0E0E0;
+  color: #999;
+}

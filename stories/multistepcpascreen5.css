@@ -1,0 +1,76 @@
+h1 {
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000;
+}
+
+.text-input__wrapper {
+    margin-bottom: 32px;
+}
+
+.button--wrapper {
+    display: flex;
+    gap: 24px;
+}
+
+.options_list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    gap: 8px;
+}
+
+.options_list li {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 128px;
+    height: 128px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.options_list li:hover {
+    border: 6px solid #000;
+    cursor: pointer;
+}
+
+.options_list li.opt-0 {
+    background-image: url("./assets/avatar-0.png");
+}
+.options_list li.opt-1 {
+    background-image: url("./assets/avatar-1.png");
+}
+.options_list li.opt-2 {
+    background-image: url("./assets/avatar-2.png");
+}
+.options_list li.opt-3 {
+    background-image: url("./assets/avatar-3.png");
+}
+.options_list li.opt-4 {
+    background-image: url("./assets/avatar-4.png");
+}
+.options_list li.opt-5 {
+    background-image: url("./assets/avatar-5.png");
+}
+
+.options_list li span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
